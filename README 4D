@@ -1,0 +1,142 @@
+Excellent! Here’s a **README.md** you could include alongside your three Python files: **4D.py**, **4D1.py**, and **4D2.py**. This README explains what each file does, requirements, and how to run them.
+
+---
+
+# 4D Tesseract Visualizations
+
+This repository contains **three Python programs**, each implementing a 4D hypercube (tesseract) visualization using different Python graphics libraries:
+
+* **4D.py** – Pygame-based interactive 2D projection of a tesseract.
+* **4D1.py** – Matplotlib-based interactive 3D projection with sliders.
+* **4D2.py** – Plotly-based animated 3D visualization with a rotation slider.
+
+---
+
+## Table of Contents
+
+* [4D.py](#4dpy)
+* [4D1.py](#4d1py)
+* [4D2.py](#4d2py)
+* [Installation](#installation)
+* [Usage](#usage)
+
+---
+
+## 4D.py
+
+**Library:** [Pygame](https://www.pygame.org/)
+
+This script visualizes a tesseract projected into 2D using Pygame.
+
+* **Features:**
+
+  * Interactive rotation in multiple 4D planes (XY, ZW, XZ, YW).
+  * Keyboard controls:
+
+    * `Q` / `A` → rotate XY plane
+    * `W` / `S` → rotate ZW plane
+    * `E` / `D` → rotate XZ plane
+    * `R` / `F` → rotate YW plane
+  * Displays edges and vertices of the tesseract.
+  * Runs in a desktop window.
+
+---
+
+## 4D1.py
+
+**Library:** [Matplotlib](https://matplotlib.org/)
+
+This script visualizes the tesseract in 3D space, with interactive sliders for rotation angles.
+
+* **Features:**
+
+  * Projects 4D vertices into 3D space.
+  * Displays edges as 3D lines.
+  * Sliders to adjust:
+
+    * XY rotation
+    * XZ rotation
+    * XW rotation
+  * Real-time updates to the 3D plot.
+
+---
+
+## 4D2.py
+
+**Library:** [Plotly](https://plotly.com/python/)
+
+Creates an animated, interactive 3D visualization of a tesseract in your web browser.
+
+* **Features:**
+
+  * Animates the tesseract rotating in the XW plane.
+  * 3D scene rendered in Plotly’s browser-based viewer.
+  * Slider to manually adjust the XW rotation angle.
+  * Play/Pause buttons for animation control.
+  * Stylish dark theme for visuals.
+
+---
+
+## Installation
+
+Install the required Python packages for each visualization.
+
+**General requirements:**
+
+```bash
+pip install numpy
+```
+
+**For 4D.py:**
+
+```bash
+pip install pygame
+```
+
+**For 4D1.py:**
+
+```bash
+pip install matplotlib
+```
+
+**For 4D2.py:**
+
+```bash
+pip install plotly
+```
+
+---
+
+## Usage
+
+### Run Pygame visualization
+
+```bash
+python 4D.py
+```
+
+### Run Matplotlib visualization
+
+```bash
+python 4D1.py
+```
+
+### Run Plotly visualization
+
+```bash
+python 4D2.py
+```
+
+The Plotly version will open your browser automatically to display the interactive tesseract animation.
+
+---
+
+## Author
+
+These scripts are demonstrations of 4D geometry projections into 2D and 3D spaces using Python.
+
+Enjoy exploring the fourth dimension!
+
+---
+
+Would you like this saved as a file (e.g. `README.md`) or customized further (e.g. for a GitHub repository)? Let me know!
